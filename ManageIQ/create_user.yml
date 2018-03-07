@@ -1,7 +1,7 @@
 # John Hardy
 # FisherPrice example - Create user "fisherprice" and memberof "EvmGroup-users" in CloudForms.
 ---
-- hosts: localhost
+- hosts: all
 
   vars:
     create_user_name: 'fisherprice'
